@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.7.1.min.js"></script>
+	<script src="script.js"></script>
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="./css//style.css">
+    <link href='https://unpkg.com/boxincons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <div class="particulas">
+    </div>
+    <nav class="navegacao">
+        <ul class="menu">
+            <li><a class="menu-link" href="#inicio">Inicio</a></li>
+            <li><a class="menu-link" href="#sobre">Sobre</a></li>
+            <li><a class="menu-link" href="#projectos">Projectos</a></li>
+            <li><a class="menu-link" href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main id="inicio" class="cabecalho">
+        
+            <img src="./imagens/ME.jpeg" alt=" Foto de Perfil" class="foto-perfil">
+            <h1>Edilauro Raposo</h1>
+            <p class="especialidade">Desenvolvedor de SoftWare</p>
+
+        
+    </main>
+
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-conteiner">
+            <p class="sobre-paragrafo">
+                Ola, sou um jovem estudante de pregramacao com curiosidade e grande potencial de Aprendizagem
+                que se focou no aprendizado de aplicacoes web mais precisamente front-end com o intuito de ajudar 
+                no desenvolvimento de softwares mais elaborados. 
+            </p>
+        </div>
+    </section>
+
+    <section id="projectos" class="projectos">
+        <h2 class="projectos-titulo">Projectos</h2>
+        <div class="projectos-conteiner">
+            <div class="projectos-cartao">
+                <img src="./imagens/HR.jpg" alt="projecto1" class="projectos-imagem">
+                <div class="caixa-texto-projecto">
+                    <h3 class="info-projectos">Home Rent</h3>
+                    <p class="paragrafo-projectos">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur
+                        inventore distinctio delectus tenetur eius corrupti accusamus.</p>
+                </div>
+            </div>
+
+
+
+
+            <div class="projectos-cartao">
+                <img src="./imagens/HR.jpg" alt="projecto2" class="projectos-imagem">
+                <div class="caixa-texto-projecto">
+                    <h3 class="info-projectos">Home Rent</h3>
+                    <p class="paragrafo-projectos">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur
+                        inventore distinctio delectus tenetur eius corrupti accusamus</p>
+                </div>
+            </div>
+
+
+            <div class="projectos-cartao">
+                <img src="./imagens/HR.jpg" alt="projecto3" class="projectos-imagem">
+                <div class="caixa-texto-projecto">
+                    <h3 class="info-projectos">Home Rent</h3>
+                    <p class="paragrafo-projectos">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur
+                        inventore distinctio delectus tenetur eius corrupti accusamus</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="habilidades" class="habilidades">
+        <div class="main-text">
+            <span>Tecnicas e Profissionais</span>
+            <h2>Habilidades</h2>
+        </div>
+        <div class="habilidades_main">
+            <div class="habilidades-esq">
+                <h3>Habilidades tecnicas</h3>
+                <div class="habi-bar">
+                    <div class="info">
+                        <p>HTML</p>
+                        <p>69%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+                <div class="habi-bar">
+                    <div class="info">
+                        <p>PHP</p>
+                        <p>35%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="php"></span>
+                    </div>
+                </div>
+                <div class="habi-bar">
+                    <div class="info">
+                        <p>CSS</p>
+                        <p>60%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+                <div class="habi-bar">
+                    <div class="info">
+                        <p>JavaScript</p>
+                        <p>40%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="js"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="habilidades-dir">
+                <h3>Habilidades Profissionais</h3>
+                <div class="profissional">
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="70"></div>
+                        <div class="text">
+                            <big>70%</big>
+                            <small>Aprendizagem</small>
+                        </div>
+                    </div>
+                    <div class="box">
+                    <div class="circle" data-dots="80" data-percent="100"></div>
+                        <div class="text">
+                            <big>100%</big>
+                            <small>Dedicacao</small>
+                        </div>
+                    </div>
+                    <div class="box">
+                    <div class="circle" data-dots="80" data-percent="85"></div>
+                        <div class="text">
+                            <big>85%</big>
+                            <small>Criatividade</small>
+                        </div>
+                    </div>
+                    <div class="box">
+                    <div class="circle" data-dots="80" data-percent="90"></div>
+                        <div class="text">
+                            <big>90%</big>
+                            <small>Trabalho colaborativo</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2 class="contacto-titulo">Entre em contacto</h2>
+        <form action="" id="formulario" class="formulario-contacto" onsubmit="enviarwhats(event)">
+            <div class="grupo-form">
+                <input placeholder="Nome" class="campo-form" id="input-nome">
+            </div>
+            <div class="grupo-form">
+                <textarea class="campo-form" rows="8" placeholder="Digite Mensagem" id="mensagem"></textarea>
+            </div>
+            <button type="submit" class="submit">Enviar pelo Whatsapp</button>
+        </form>
+    </section>
+</body>
+
+</html>
